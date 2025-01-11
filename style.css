@@ -39,8 +39,8 @@ color:#FFFFFF ;
     align-items: center;
     background-color: #C6E4D6;
     border-radius: 24px;
-    padding: 80px 100px;
-    margin: 76px 146px 80px 174px;
+    padding: 50px 40px;
+    margin: 60px 105px ;
 }
 .banner-title{
     font-size: 24;
@@ -110,16 +110,17 @@ button:hover{
 
 /*  Recent news */
 .rn-container{
-    margin: 80px 102px;
+    margin: 80px 105px;
     
 }
 
 /* Donate Today  */
 .dt{
-    margin: 80px 102px;
+    margin: 50px 105px;
    background-color: #F1F1F3;
   justify-items: center;
   text-align: center;
+  border-radius: 24px;
 }
 .tk-btn{
     font-weight: bold;
@@ -127,18 +128,19 @@ button:hover{
     padding: 40px;
     border: none;
     color: #393A3A;
-    border-radius: 16px;
     background-color: #FFFFFF;
     margin: 32px 24px;
+    border-radius: 24px;
 
 }
+.tk{display: flex;}
 .tk-cl{
     background-color: #80efd377;
 }
 .ip-tx{
     padding: 20px 40px;
     height: 64px; 
-    width: 1032px;
+    width: 900px;
     text-align: center;
     margin-bottom: 32px;
     border-radius: 24px;
@@ -216,28 +218,56 @@ button:hover{
 }
 
 /* new */
+.rn-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.discription{
+    color: rgba(19, 5, 5, 0.729);
+}
+
  .box1{
+    background-color: #C6E4D6;
     display: flex;
-    width: 70%;
     padding: 48px;
-    margin: 80px 160px;
+    margin: 80px 105px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    border-radius: 24px;
+    border-radius: 24px;
+ }
+ .box1-left{
+    width: 1300px;
+    height: 306px;
+    background-image: url(./photo/satelite.png);
+    margin-left: 32px;
+    text-align: center;
+    border-radius: 24px;
+ }
+ .box1-right{
+    margin-left: 32px;
+    
+ }
+ .box2{ background-color: #C6E4D6;
+    display: flex;
+    padding: 48px;
+    margin: 80px 105px;
     justify-content: space-around;
     
     align-items: center;
     text-align: justify;
     border-radius: 24px;
  }
- .box1-left{
+ .box2-left{
+    width: 1300px;
+    height: 306px;
+    background-image: url(./photo/satelite.png);
+    margin-left: 32px;
+    text-align: center;
+    border-radius: 24px;
+ }
+ .box2-right{
+    margin-left: 32px;
     
-    margin-left: 32px;
-    text-align: center;
  }
- .box1-right{
-    margin-left: 32px;
-    text-align: center;
- }
- .span{
-    font-size: 16px;
-    color: #0c0c0c73;
- }
- 
